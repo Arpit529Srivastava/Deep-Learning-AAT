@@ -1,0 +1,22 @@
+# Python environments
+.venv/
+.venv_pq/
+__pycache__/
+
+# Large datasets (re-download, see README)
+aat2/data/
+aat2/eyes/
+aat2/demo_candidates/
+
+# Build and scratch output
+report/preview/
+aat1/shots_html/
+sample/
+*.log
+!aat2/train_*.log
+.DS_Store
+~$*
+
+# Report build copies (final copies live in the repo root)
+report/*.docx
+report/*.pdf
