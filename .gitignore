@@ -1,6 +1,7 @@
 # Python environments
 .venv/
 .venv_pq/
+.venv_tools/
 __pycache__/
 
 # Large datasets (re-download, see README)
@@ -20,3 +21,5 @@ sample/
 # Report build copies (final copies live in the repo root)
 report/*.docx
 report/*.pdf
+
+node_modules/
